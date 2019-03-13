@@ -13,6 +13,8 @@ import com.ijava.o2oschool.entity.PersonInfo;
 import com.ijava.o2oschool.entity.Shop;
 import com.ijava.o2oschool.entity.ShopCategory;
 import com.ijava.o2oschool.util.FileUtil;
+
+import com.ijava.o2oschool.util.Lunar;
 import net.coobird.thumbnailator.Thumbnails;
 import net.coobird.thumbnailator.geometry.Positions;
 import org.junit.Ignore;
@@ -36,9 +38,26 @@ public class ShopDaoTest extends BaseTest {
 		shopCondition.setShopCategory(childCategory);
 		List<Shop> shopList = shopDao.queryShopList(shopCondition, 0, 6);
 		int count = shopDao.queryShopCount(shopCondition);
+
 		System.out.println("店铺列表的大小：" + shopList.size());
-		System.out.println("店铺总数：" + count);		
+		System.out.println("店铺总数：" + count);
+
+
+
+//		Lunar l= new Lunar();
+//		l.isleap=false;
+//		l.lunarDay=12;
+//		l.lunarMonth=7;
+//		l.lunarYear=2100;
+//		Lunar lunar = LunarSolarConverter.SolarToLunar(solar);
+//		System.out.println(dump(lunar));
+//		solar = LunarSolarConverter.LunarToSolar(l);
+//		System.out.println(dump(solar));
+//		System.out.println(LunarSolarConverter.lunarYearToGanZhi(2100));
+
+
 	}
+
 
 	@Test
 	public void testQueryByShopId() {
