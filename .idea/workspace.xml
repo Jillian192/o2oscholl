@@ -772,8 +772,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ijava/o2oschool/util/CodeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="-113">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -947,8 +947,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="154" />
-    <option name="y" value="476" />
+    <option name="x" value="197" />
+    <option name="y" value="248" />
     <option name="width" value="1658" />
     <option name="height" value="825" />
   </component>
@@ -1166,7 +1166,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552638639227" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552638889161" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1462,7 +1462,7 @@
       <workItem from="1552465459382" duration="1715000" />
       <workItem from="1552467215684" duration="6327000" />
       <workItem from="1552528085090" duration="24815000" />
-      <workItem from="1552614579020" duration="10872000" />
+      <workItem from="1552614579020" duration="11131000" />
     </task>
     <servers />
   </component>
@@ -1499,7 +1499,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160216000" />
+    <option name="totallyTimeSpent" value="160475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1511,7 +1511,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="102" width="1658" height="825" extended-state="0" />
+    <frame x="570" y="128" width="1658" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.2703379" />
@@ -1588,6 +1588,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#feat 2019/3/15 店铺新加" />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat 2019/3/15 店铺新加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2036,8 +2040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ijava/o2oschool/util/CodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="-113">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
