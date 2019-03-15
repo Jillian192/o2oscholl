@@ -1,10 +1,9 @@
 package com.ijava.o2oschool.service;
 
+import com.alibaba.fastjson.JSON;
 import com.ijava.o2oschool.dao.ShopDao;
 import com.ijava.o2oschool.dto.ShopExecution;
-import com.ijava.o2oschool.entity.Shop;
-import com.ijava.o2oschool.entity.ShopAuthMap;
-import com.ijava.o2oschool.entity.ShopCategory;
+import com.ijava.o2oschool.entity.*;
 import com.ijava.o2oschool.enume.ShopStateEnum;
 import com.ijava.o2oschool.serviceimpl.ShopService;
 import com.ijava.o2oschool.util.FileUtil;
@@ -29,6 +28,11 @@ public class ShopServiceImpl implements ShopService {
         shop.setEnableStatus(0);
         shop.setCreateTime(new Date());
         shop.setLastEditTime(new Date());
+        PersonInfo owner = new PersonInfo();
+        owner.setUserId((long) 1);
+        shop.setOwner(owner);
+        String shopInfo = JSON.toJSONString(shop);
+        System.out.println("★insertShop★"+shopInfo);
         int insertShop = shopDao.insertShop(shop);
         if (insertShop<=0) {
             throw new RuntimeException("店铺创建失败");

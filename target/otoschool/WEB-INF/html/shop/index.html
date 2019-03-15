@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/??sm.min.css,sm-extend.min.css">
 
     <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-114x114.png">
-    <script src="/assets/js/zepto.js"></script>
-    <script src="/assets/js/config.js"></script>
+    <!--<script src="/assets/js/zepto.js"></script>-->
+    <!--<script src="/assets/js/config.js"></script>-->
     <script>
         //ga
     </script>
@@ -135,6 +135,21 @@
                             </div>
                         </div>
                     </li>
+                    <!--店铺简介-->
+                    <li class="align-top">
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">验证码</div>
+
+                                <input type="text" id="shop_captcha" placeholder="验证码"></input>
+                                <div class="item-input">
+                                    <img id="shop_captcha_img" alt="点击更换" title="点击更换"
+                                    onclick="shop_change_captcha(this)" src="../Kaptcha" />
+                                    <!--<textarea id="shop_captcha" placeholder="店铺简介"></textarea>-->
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <!--<li>-->
                         <!--<div class="item-content">-->
                             <!--<div class="item-inner">-->
@@ -219,5 +234,6 @@
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../resources/js/shop/shopoperation.js' charset='utf-8'></script>
+<script type='text/javascript' src='../resources/js/common/common.js' charset='utf-8'></script>
 </body>
 </html>

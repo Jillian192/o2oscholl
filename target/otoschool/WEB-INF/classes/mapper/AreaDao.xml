@@ -5,12 +5,7 @@
 <mapper namespace="com.ijava.o2oschool.dao.AreaDao">
     <select id="queryArea" resultType="com.ijava.o2oschool.entity.Area">
 		SELECT
-		area_id,
-		area_name,
-		area_desc,
-		priority,
-		create_time,
-		last_edit_time
+        *
 		FROM
 		tb_area
 		ORDER BY
